@@ -1,0 +1,10 @@
+{
+  "description": "This web application offers responsive design solutions for websites, ensuring optimal viewing experiences across desktop, tablet, and mobile devices.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
