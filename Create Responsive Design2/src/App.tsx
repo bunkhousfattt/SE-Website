@@ -2,8 +2,8 @@ const assets = "/assets";
 
 const images = {
   logo: `${assets}/89cbf.png`,
-  hero: `${assets}/01b3e.png`,
-  mission: `${assets}/de9f4.png`,
+  hero: `${assets}/hero-turtle-unsplash.jpg`,
+  mission: `${assets}/outdoor-learning-unsplash.jpg`,
   community: `${assets}/ea05d.png`,
   innovation: `${assets}/3cb59.png`,
   environment: `${assets}/c7326.png`,
