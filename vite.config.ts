@@ -12,8 +12,7 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
 
   return {
-    base: process.env.https://github.com/bunkhousfattt/SE-Website ? `${process.env.https://github.com/bunkhousfattt/SE-Website}/` : '/',
-    build: {
+        base: process.env.NODE_ENV === 'production' ? '/SE-Website/' : '/',    build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
     },
