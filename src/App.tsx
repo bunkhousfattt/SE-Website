@@ -1,4 +1,4 @@
-const assets = "/assets";
+const assets = `${import.meta.env.BASE_URL}assets`;
 
 const images = {
   logo: `${assets}/89cbf.png`,
